@@ -34,6 +34,10 @@ In above example here text length is 9 and pattern length is 2.
  When second loop index will match with pattern length, this means the pattern is matched.
  
  ## Described by a table
+ 
+ - Text: nmbabornm
+ - Pattern: nm
+ 
  i | j | text[i+j] | patter[j] | res
  --- | --- | --- | --- | ---
  0 | 0 | n | n | 0
