@@ -30,3 +30,15 @@ function countPattern($text, $pattern)
 }
 
 echo countPattern('nmbabornm','nm');
+
+// function patternFind($text, $pattern) {
+//     $count = 0;
+//     $patternLen = strlen($pattern);
+//     $text_len = strlen($text);
+//     for ($i = 0; $i <= $text_len - $patternLen; $i++) {
+//         if (substr($text, $i, $patternLen) == $pattern) {
+//             $count++;
+//         }
+//     }
+//     return $count;
+// }
